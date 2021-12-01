@@ -2,7 +2,8 @@ PREDEF:
   - preface.re
 
 CHAPS:
-  - test.re
+  - koritsu.re
+  - anohi.re
 
 APPENDIX:
 

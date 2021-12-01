@@ -16,7 +16,7 @@ body {
     padding: 0;
     font-size: 1em;
     line-height:1.6;
-    font-family: "ShinGoPro-Regular","ShinGo-Regular", sans-serif;
+    font-family: serif;
     /*
     word-break: normal;
     -webkit-line-break: after-white-space;
@@ -26,7 +26,7 @@ body {
     writing-mode: tb-rl;
 }
 p, ul, ol, dl, pre, table {
-    font-family: "ShinGo Regular","ShinGo R","新ゴR","新ゴ R", sans-serif;
+    font-family: serif;
     font-size: 0.875em;
 }
 /* Heading */
@@ -500,4 +500,22 @@ span.tcy {
   -webkit-text-combine: horizontal;
   -ms-text-combine-horizontal: all;
   text-combine-upright: all;
+}
+
+div.yoko {
+  -webkit-writing-mode: horizontal-tb;
+  -epub-writing-mode:   horizontal-tb;
+  writing-mode: lr-tb;
+  width: 30em;
+  margin: 0;
+  padding: 5px;
+  border: 1px #aaa solid;
+}
+
+div.yoko p.center {
+  text-align: center;
+}
+
+div.yoko p.migi {
+  text-align: right;
 }

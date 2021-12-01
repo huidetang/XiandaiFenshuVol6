@@ -16,14 +16,14 @@ review_version: 5.0
 # inherit: ["A.yml", "B.yml"]
 
 # ブック名(ファイル名になるもの。ASCII範囲の文字を使用)
-bookname: book
+bookname: XiandaiFenshuVol5
 # 記述言語。省略した場合はja
 language: ja
 
 # 書名
 # 読みを入れる例 booktitle: {name: "Re:VIEW EPUBサンプル", file-as: "リビューイーパブサンプル"}
-booktitle: "現代焚書テンプレート"
-subtitle: "副題"
+booktitle: "現代焚書 第６号"
+subtitle: "何者にもなれなかった私たち"
 
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
@@ -56,7 +56,7 @@ aut: ["ヨーシャ"]
 # a-nrt, nrt: 語り手
 # a-oth, oth: その他
 # a-pht, pht: 撮影責任者
-# a-pbl, pbl: 出版社（発行所） ※ サークル名はここに設定するとよい
+# a-pbl, pbl: 出版社（発行所）
 a-pbl: 恢徳堂
 # a-prt, prt: 印刷所
 prt: ねこのしっぽ
@@ -208,7 +208,7 @@ contentdir: chapter
 # (文字幅を考慮した行数計測には、別途unicode-eaw gemファイルが必要)
 # ページあたりの行数文字数を用紙サイズで指定する(A5 or B5)
 # page_metric: A5
-page_metric: B5
+page_metric: A5
 #
 # あるいは、配列で指定することもできる
 # 各数字の意味は、順にリストの行数、リストの1行字数、テキストの行数、テキストの1行字数
@@ -358,7 +358,7 @@ texstyle: ["reviewmacro"]
 # オプションについてはsty/README.mdを参照
 # デフォルトは印刷用。電子配布版を作るには media=ebook とする
 # texdocumentclass: ["review-jsbook", "paper=b5,serial_pagination=true,cameraready=ebook,cover=false,hiddenfolio=shippo,fontsize=10pt,line_length=40zw,number_of_lines=34,baselineskip=25.5H"]
-texdocumentclass: ["review-jlreq", "media=print,paper=b5,fontsize=10pt,serial_pagination=true,hiddenfolio=shippo,startpage=3,tate,twoside,onecolumn,openany"]
+texdocumentclass: ["review-jlreq", "media=print,paper=a5,fontsize=10pt,serial_pagination=true,hiddenfolio=shippo,startpage=3,tate,twoside,onecolumn,openany"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
