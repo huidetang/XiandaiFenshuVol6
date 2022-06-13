@@ -8,6 +8,10 @@ Sorry, but the book will be written in Japanese, and the project is in Japanese 
 
 寄稿したいと思う人や査読したいと思う人は、このドキュメントと[ディスカッション](https://github.com/huidetang/XiandaiFenshuVol6/discussions)の内容をよく読んだうえで、[ディスカッションの協力希望のカテゴリ](https://github.com/huidetang/XiandaiFenshuVol6/discussions/categories/%E5%8D%94%E5%8A%9B%E5%B8%8C%E6%9C%9B)に記載してください。
 
+### 進捗どうですか？
+
+[現代焚書第6号進捗管理表](https://github.com/orgs/huidetang/projects/4)をご覧ください。
+
 ## 読んでください
 
 まず、[コントリビュートガイドライン](https://github.com/huidetang/XiandaiFenshuVol6/wiki/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3)に目を通してください。この中に、[使用するツールについて](https://github.com/huidetang/XiandaiFenshuVol6/wiki/%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)についての記載があるのでこれを見て環境構築してください。
