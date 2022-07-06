@@ -10,12 +10,15 @@ GEM
     mecab (0.996)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.6-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    psych (3.3.2)
+    psych (4.0.4)
+      stringio
     racc (1.6.0)
     rainbow (3.1.1)
     rake (13.0.6)
@@ -42,6 +45,7 @@ GEM
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
+    stringio (3.0.2)
     tty-color (0.6.0)
     tty-logger (0.6.0)
       pastel (~> 0.8)
@@ -49,12 +53,13 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   math_ml
   mecab
   nokogiri
-  psych (< 4.0.0)
+  psych
   rake
   review
   rexml

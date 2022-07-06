@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'psych', '< 4.0.0'
+gem 'psych'
 gem 'rubyzip'
 gem 'mecab'
 gem 'nokogiri'
