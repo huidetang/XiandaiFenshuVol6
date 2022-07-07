@@ -6,7 +6,7 @@
 
 % 後注の出力場所に関する設定
 % Re:VIEW 5.3が来たら取り除く
-%\jlreqsetup{endnote_position={_chapter}}
+\jlreqsetup{endnote_position={_chapter}}
 
 % 数字を使う箇条書きのみ数字と本文の間を1文字開ける
 \jlreqsetup{itemization_labelsep={enumerate=1zw}}
@@ -30,25 +30,25 @@
   \jlreqsetup{frontmatter_pagebreak={}}% これを入れないと大扉前に白が入る
 \fi
 
-% 表紙90°回転？
-\if@reclscover
-  \ifdefined\review@coverimage
-    \ifrecls@coverfitpage
-       \def\review@coverimageoption{width=\paperwidth,height=\paperheight}
-    \fi
-    \def\reviewcoverpagecont{%
-      \if@tate
-        \expandafter\includefullpagegraphics\expandafter[angle=90,\review@coverimageoption]{\review@coverimage}
-      \else
-        \expandafter\includefullpagegraphics\expandafter[\review@coverimageoption]{\review@coverimage}
-      \fi
-      \cleardoublepage
-    }
-  \fi
-  \ifdefined\review@coverfile
-    \def\reviewcoverpagecont{\review@coverfile}
-  \fi
-\fi
+% % 表紙90°回転？
+% \if@reclscover
+%   \ifdefined\review@coverimage
+%     \ifrecls@coverfitpage
+%        \def\review@coverimageoption{width=\paperwidth,height=\paperheight}
+%     \fi
+%     \def\reviewcoverpagecont{%
+%       \if@tate
+%         \expandafter\includefullpagegraphics\expandafter[angle=90,\review@coverimageoption]{\review@coverimage}
+%       \else
+%         \expandafter\includefullpagegraphics\expandafter[\review@coverimageoption]{\review@coverimage}
+%       \fi
+%       \cleardoublepage
+%     }
+%   \fi
+%   \ifdefined\review@coverfile
+%     \def\reviewcoverpagecont{\review@coverfile}
+%   \fi
+% \fi
 
 % 各部のページは縦書きのまま
 \if@tate
@@ -140,51 +140,47 @@
   }
 \fi
 
-% % 索引
-% \newif\ifjlreq@resttate
-% \renewenvironment{theindex}{%
-%   \jlreq@oldfontcommand@enable
-%   \jlreq@iftdir{\clearpage\yoko\jlreq@resttatetrue}{\jlreq@resttatefalse}% 常に横書きにする
-%   \if@twocolumn\@resttwocoltrue\else\@resttwocolfalse\fi
-%   \columnseprule\z@ \columnsep 2\jlreq@mol
-%   \onecolumn[\section*{\indexname}]%
-%   \@mkboth{\indexname}{\indexname}%
-%   \jlreq@theindex@pagestyle
-%   \parindent\z@
-%   \parskip\z@ \@plus .03\jlreq@gol\relax
-%   \let\item\@idxitem
-% }{%
-%   \ifx\jlreq@theindex@savedpagestyle\@undefined\else\expandafter\pagestyle\expandafter{\jlreq@theindex@savedpagestyle}\fi
-%   \let\jlreq@theindex@savedpagestyle\@undefined
-%   \if@resttwocol\twocolumn\else\clearpage\fi
-%   \ifjlreq@resttate\tate\fi
-%   \jlreq@oldfontcommand@disable
-% }
-% \renewcommand{\@idxitem}{\par\hangindent 4\jlreq@mol}
-% \renewcommand{\subitem}{\@idxitem \hspace*{2\jlreq@mol}}
-% \renewcommand{\subsubitem}{\@idxitem \hspace*{3\jlreq@mol}}
-% \renewcommand{\indexspace}{\par \vskip 1\jlreq@gol \@plus .5\jlreq@gol \@minus .3\jlreq@gol\relax}
-% \def\jlreq@theindex@pagestyle{}
-% \keys_define:nn { jlreqsetup } {
-%   theindex_pagestyle .code:n = {
-%     \def\jlreq@tempa{}% ページスタイル名
-%     \def\jlreq@theindex@pagestyle{}%
-%     \jlreq@tempafalse % restore
-%     \jlreq@parsekeyval@nokey{%
-%       \ifjlreq@parsekeyval@nokey@novalue{\def\jlreq@tempa{##1}}{%
-%         \str_if_eq:nnT {##1} { restore } {
-%           {restore}{\csname jlreq@tempa##2\endcsname}%
-%         }%
-%       }%
-%     }{#1}%
-%     \tl_put_right:Nx \jlreq@theindex@pagestyle {
-%       \exp_not:n {\let\jlreq@theindex@savedpagestyle}\ifjlreq@tempa\exp_not:N \jlreq@current@pagestyle\else\exp_not:N \@undefined\fi
-%     }%
-%     \ifx\jlreq@tempa\@empty\else
-%       \tl_put_right:Nx \jlreq@theindex@pagestyle{\exp_not:N \pagestyle{\exp_not:o \jlreq@tempa}}%
-%     \fi
-%   }
-% }
+%%索引 theindex 環境
+%% https://qiita.com/munepi/items/2e1524859e24b5fb44bc より
+\usepackage{needspace}
+\usepackage{makeidx}\makeindex
+\usepackage{multicol}
+\makeatletter
+\renewenvironment{theindex}{%
+   \columnsep2\zw
+   \columnseprule\z@
+   \begin{multicols}{2}[\chapter*{\indexname}]%
+     \small
+     \@mkboth{\indexname}{\indexname}%
+     \parindent\z@
+     \parskip\z@
+     \lineskiplimit\z@
+     \lineskip\z@
+     \raggedbottom
+     \raggedcolumns
+     \raggedright
+     \let\item\@idxitem}
+  {\end{multicols}
+   \clearpage}
+
+\renewcommand{\@idxitem}{\par\leavevmode\hangindent1\zw\inhibitglue}
+\renewcommand{\subitem}{\@idxitem\hangindent2\zw\hspace*{1\zw}\inhibitglue}
+\renewcommand{\subsubitem}{\@idxitem\hangindent3\zw\hspace*{2\zw}\inhibitglue}
+\renewcommand{\indexspace}{\par\vskip\baselineskip\relax}
+
+\newcommand\idxdelim{\nobreak{\reset@font\scriptsize\space
+  \leaders\hbox to .3333\zw{\hss\hbox{.}\hss}\hfill\space}\nobreak}
+
+\newcommand*{\symbolindexname}{記号・数字}
+
+\def\makeidxhead#1{%
+  \needspace{2\baselineskip}%
+  \vspace{\baselineskip}%
+  \hbox to \columnwidth{\hfil
+    \normalsize\sffamily\bfseries
+    ■\hspace{.5\zw}#1\hspace{.5\zw}■\hfil}\par
+  \nopagebreak
+}
 
 % 奥付
 \ifdefined\review@colophon
