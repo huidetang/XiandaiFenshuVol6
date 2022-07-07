@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/kaitokudo/xiandai_fenshu_c94.git"
+    "url": "git@github.com:huidetang/XiandaiFenshuVol6.git"
   },
   "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/kaitokudo/xiandai_fenshu_c94#readme",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/huidetang/XiandaiFenshuVol6",
   "devDependencies": {
     "textlint": "^12.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
