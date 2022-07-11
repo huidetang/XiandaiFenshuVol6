@@ -26,6 +26,12 @@
   https://www.mlit.go.jp/report/press/tetsudo01_hh_000166.html
 //}
 
+//bibpaper[][日本経済新聞による時価総額ランキング]{
+  時価総額上位ランキング（日本経済新聞調べ）
+  https://www.nikkei.com/markets/ranking/page/?bd=caphigh
+  ※ データは７月@<tcy>{12}日、午前９時前後のものを使用
+//}
+
 //embed[latex]{
 \end{thebibliography}
 //}
