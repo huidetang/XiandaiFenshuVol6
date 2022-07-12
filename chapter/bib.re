@@ -29,7 +29,7 @@
 //bibpaper[market-capitalization][日本経済新聞による時価総額ランキング]{
   時価総額上位ランキング（日本経済新聞調べ）
   https://www.nikkei.com/markets/ranking/page/?bd=caphigh
-  ※ データは７月@<tcy>{12}日、１５時５１分現在のものを使用
+  ※ データは７月@<tcy>{12}日、@<tcy>{15}時@<tcy>{51}分現在のものを使用
 //}
 
 //embed[latex]{
