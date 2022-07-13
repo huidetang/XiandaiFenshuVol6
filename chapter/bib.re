@@ -32,6 +32,13 @@
   ※ データは７月@<tcy>{12}日、@<tcy>{15}時@<tcy>{51}分現在のものを使用
 //}
 
+//bibpaper[sdgs][持続可能な開発のための２０３０アジェンダ]{
+  ２０１５年９月@<tcy>{25}日　第@<tcy>{70}回国連総会で採択
+  「我々の世界を変革する：持続可能な開発のための２０３０アジェンダ」
+  ※ 本文は外務省ホームページに掲載されている仮訳を参照
+  https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html
+//}
+
 //embed[latex]{
 \end{thebibliography}
 //}
