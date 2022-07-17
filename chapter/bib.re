@@ -49,6 +49,20 @@
   https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html
 //}
 
+//bibpaper[devsumi2022][デブサミ２０２２の講演]{
+  Developers Summit 2022 における高倉佑輔（筆者）の講演
+  「@<tcy>{10}年先を見据えた発達障がいエンジニアの生存戦略」
+  紹介： https://event.shoeisha.jp/devsumi/20220217/session/3728/
+  講演動画： https://codezine.jp/devonline/archive/session/82
+  Togetter： https://togetter.com/li/1847298
+  ※ 視聴にはCodeZineへの会員登録が必要
+//}
+
+//bibpaper[24motz-twwet][にしもつ氏のツイート]{
+  にしもつ氏（@24motz）が2022-02-18 15:31:52に行ったツイート
+  https://twitter.com/24motz/status/1494560279283191814
+//}
+
 //embed[latex]{
 \end{thebibliography}
 //}
