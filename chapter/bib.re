@@ -56,6 +56,17 @@
   ※ 視聴にはCodeZineへの会員登録が必要
 //}
 
+//bibpaper[elon-musk][イーロン・マスク氏のエンジニアリングに関する考え方]{
+  ジャバ・ザ・ハットリ
+  「イーロン・マスクのロケット製造５つのステップがサイコーだった」
+  https://jabba.cloud/20210807-elon-musk
+//}
+
+//bibpaper[elon-musk-movie][イーロン・マスク氏がロケット開発について語る動画]{
+  [SUMMER 2021] Starbase Tour with Elon Musk [PART 1]
+  https://www.youtube.com/watch?v=t705r8ICkRw
+//}
+
 //bibpaper[24motz-twwet][にしもつ氏のツイート]{
   にしもつ氏（@24motz）が2022-02-18 15:31:52に行ったツイート
   https://twitter.com/24motz/status/1494560279283191814
