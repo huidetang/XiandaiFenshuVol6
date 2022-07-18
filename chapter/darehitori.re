@@ -252,8 +252,9 @@
 では、なぜＩＴエンジニアにおいて、コミュニケーションは大事なのでしょうか。
 よく提示されている図として、「@<idx>{顧客が本当に必要だったもの}」の図があります。
 
-//image[what-the-customer-really-needed][「顧客が本当に必要だったもの」の図]{
-  よくある「顧客が本当に必要だったもの」の図。著作者不明。
+//image[what-the-customer-really-needed][「顧客が本当に必要だったもの」の図][scale=html::style="transform: scale(0.6);",latex::scale=0.8]{
+  よくある「顧客が本当に必要だったもの」の図。
+  出典は https://www.pixiv.net/artworks/98603591 による。
 //}
 
 まあ、このような認識齟齬はＩＴの世界ではよく起こることですが、
