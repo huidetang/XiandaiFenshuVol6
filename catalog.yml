@@ -1,10 +1,12 @@
 PREDEF:
+  - dedication.re
   - preface.re
 
 CHAPS:
-  - koritsu.re
-  - since1995.re
-  - darehitori.re
+  - penguindrum.re
+  - cult.re
+  - kodoku.re
+  - tsunagari.re
 
 APPENDIX:
 
