@@ -1,24 +1,10 @@
 import glob
 from os import getcwd
 from os.path import basename, join
+from io import BytesIO
 
-import cairosvg
-import PyPDF2
-
-
-def rotate(file_path, angle):
-    file = PyPDF2.PdfFileReader(open(file_path, 'rb'))
-    print(file_path + "を回転します。")
-    file_output = PyPDF2.PdfFileWriter()
-    for page_num in range(file.numPages):
-        page = file.getPage(page_num)
-        page.rotateClockwise(angle)
-        print("回転！！")
-        file_output.addPage(page)
-        print(file_path + "の書き込み準備完了")
-    with open(file_path, "wb") as f:
-        file_output.write(f)
-        print(file_path + "の書き込み完了！")
+from PIL import Image
+from cairosvg import svg2png
 
 
 def convert(dir):
@@ -29,12 +15,12 @@ def convert(dir):
     path_list.extend(filename)
 
     for file in path_list:
-        converted_file_name = join(dir, (basename(file).split('.', 1)[0] + ".pdf"))
+        converted_file_name = join(dir, (basename(file).split('.', 1)[0] + ".png"))
         print(file + "を" + converted_file_name + "に変換します。")
-        cairosvg.svg2pdf(url=file, write_to=converted_file_name)
+        png = svg2png(url=file)
+        img = Image.open(BytesIO(png)).convert('RGBA')
+        img.save(converted_file_name)
         print(converted_file_name + "を出力しました。")
-        # rotate(converted_file_name, 270)
-        # print(converted_file_name + "を回転しました。")
     return
 
 
