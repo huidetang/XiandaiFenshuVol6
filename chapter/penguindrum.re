@@ -8,7 +8,15 @@
 
 「@<idx>{輪るピングドラム}」といえば、かわいいペンギンたちと「@<idx>{生存戦略}」のかけ声から始まる謎のイリュージョンシーンを思い浮かべる人も多いと思います。
 その時に語られる言葉が「@<idx>{きっと何者にもなれないお前たちに告げる}」という言葉です。
-私は、この作品の主人公たちと私の名字が同じ@<endnote>{real-takakura}であること、およびＩＴエンジニアである私が興味を持っていた@<idx>{Ｌｉｎｕｘ}というＯＳのマスコット、@<idx>{Ｔｕｘ}がペンギンであることからこの作品に興味を持ったのですが、
+私は、この作品の主人公たちと私の名字が同じ@<endnote>{real-takakura}であること、およびＩＴエンジニアである私が興味を持っていた@<idx>{Ｌｉｎｕｘ}というＯＳのマスコット、@<idx>{Ｔｕｘ}@<endnote>{tux-licensing}がペンギンであることからこの作品に興味を持ちました。
+
+//image[tux][Ｌｉｎｕｘのマスコット、Ｔｕｘ]{
+    The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
+    Attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP
+//}
+
+//endnote[tux-licensing][The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted. Attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP]
+
 最後まで見てみたところ、「@<idx>{反社会的集団}」と「@<idx>{親ガチャ}」、「@<idx>{孤立}」と「@<idx>{つながり}」と「@<idx>{愛}」など、非常に重いテーマを扱った作品であると実感しました。
 今回は、この「きっと何者にもなれない」という言葉から「輪るピングドラム」のストーリーを深掘りしてみようと思います。
 
