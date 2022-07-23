@@ -55,6 +55,7 @@ aut: ["ヨーシャ"]
 # a-mus, mus: 音楽家
 # a-nrt, nrt: 語り手
 # a-oth, oth: その他
+a-oth: https://github.com/huidetang/XiandaiFenshuVol6
 # a-pht, pht: 撮影責任者
 # a-pbl, pbl: 出版社（発行所）
 a-pbl: 恢徳堂
