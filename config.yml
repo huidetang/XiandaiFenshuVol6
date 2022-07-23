@@ -467,9 +467,9 @@ pdfmaker:
     caution:
       style: marker
     notice:
-      style: marker
-  #     style: squarebox
-  #     options: "colback=black!5!white"
-  #     options_with_caption: "colbacktitle=black!25!white"
+      # style: marker
+      style: squarebox
+      options: "colback=black!5!white"
+      options_with_caption: "colbacktitle=black!25!white"
   #
   # pdfmaker:階層を使うものはここまで
