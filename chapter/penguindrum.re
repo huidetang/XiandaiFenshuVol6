@@ -10,7 +10,7 @@
 その時に語られる言葉が「@<idx>{きっと何者にもなれないお前たちに告げる}」という言葉です。
 私は、この作品の主人公たちと私の名字が同じ@<endnote>{real-takakura}であること、およびＩＴエンジニアである私が興味を持っていた@<idx>{Ｌｉｎｕｘ}というＯＳのマスコット、@<idx>{Ｔｕｘ}@<endnote>{tux-licensing}がペンギンであることからこの作品に興味を持ちました。
 
-//image[tux][Ｌｉｎｕｘのマスコット、Ｔｕｘ]{
+//image[tux][Ｌｉｎｕｘのマスコット、Ｔｕｘ][scale=html::style="transform: scale(0.3);",latex::scale=1.0]{
     The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
     Attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP
 //}
