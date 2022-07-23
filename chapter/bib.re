@@ -97,11 +97,6 @@
   https://news.yahoo.co.jp/byline/toriumifujio/20220307-00285312
 //}
 
-//bibpaper[24motz-twwet][にしもつ氏のツイート]{
-  にしもつ氏（@24motz）が2022-02-18 15:31:52に行ったツイート
-  https://twitter.com/24motz/status/1494560279283191814
-//}
-
 //embed[latex]{
 \end{thebibliography}
 //}
