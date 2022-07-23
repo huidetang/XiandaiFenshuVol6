@@ -15,6 +15,11 @@
 
 === 新聞・雑誌などの定期刊行物の記事
 
+//bibpaper[komyusyo-kamei][「新しい優生思想としての”コミュ障”」]{
+  亀井伸孝「新しい優生思想としての”コミュ障”　ーー異文化間の快適な対話を目指して」
+  東京・日本評論社 発行『こころの科学』１９１号（２０１７年１月）　５７ページから６３ページに掲載
+//}
+
 == 電子媒体
 
 === 電子書籍
@@ -65,6 +70,16 @@
 //bibpaper[elon-musk-movie][イーロン・マスク氏がロケット開発について語る動画]{
   [SUMMER 2021] Starbase Tour with Elon Musk [PART 1]
   https://www.youtube.com/watch?v=t705r8ICkRw
+//}
+
+//bibpaper[leading-tech-report][リーディングテック株式会社による『ロシアによるウクライナ侵攻に関する世論調査』]{
+  リーディングテック株式会社『ロシアによるウクライナ侵攻に関する世論調査』
+  https://leading-tech.jp/wiseloan/russian-invasion-of-ukraine/
+//}
+
+//bibpaper[toriumi-fujio-report][鳥海不二夫教授によるロシアによるウクライナ侵略に関するツイートの分析結果]{
+  鳥海不二夫『ツイッター上でウクライナ政府をネオナチ政権だと拡散しているのは誰か』
+  https://news.yahoo.co.jp/byline/toriumifujio/20220307-00285312
 //}
 
 //bibpaper[24motz-twwet][にしもつ氏のツイート]{
