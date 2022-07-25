@@ -67,6 +67,12 @@
 
 === その他のインターネットの記事
 
+//bibpaper[gendai-kato][秋葉原通り魔事件の弟が週刊現代の記者に送った手紙に関する記事]{
+  週刊現代「独占スクープ！「秋葉原連続通り魔事件」そして犯人(加藤智大)の弟は自殺した」
+  ※ 現在はWaybackMachineに収録
+  https://web.archive.org/web/20170709051523/http://gendai.ismedia.jp:80/articles/-/39034
+//}
+
 //bibpaper[devsumi2022][デブサミ２０２２の講演]{
   Developers Summit 2022 における高倉佑輔（筆者）の講演
   「@<tcy>{10}年先を見据えた発達障がいエンジニアの生存戦略」
