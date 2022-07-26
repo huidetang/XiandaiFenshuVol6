@@ -338,6 +338,12 @@
 
 そして、私の中にあるもう一つの問題が、彼らの名字が私の名字と同じである、ということです。
 私の祖先はかつて@<idx>{福岡藩}に仕えていたものの、@<idx>{西南戦争}で家禄を失い、@<idx>{北海道}の幌向原野を開拓し、その地@<endnote>{kurisawacho-hokuto}に農園を作ったという過去があります。
+
+//image[takakura-jinja][私の祖先が開拓した地（北海道岩見沢市栗沢町北斗）に建つ高倉神社][scale=html::style="transform: scale(0.6);",latex::scale=0.6]{
+    撮影日時：２０２１年９月２２日
+    撮影者：ヨーシャ
+//}
+
 かつて、@<idx>{筥崎宮}に奉職していた過去から神道を信仰しており、農園の中には立派な神社があったのですが、富山県の砺波平野から移住してきた人が暮らしている隣の砺波集落@<endnote>{kurisawacho-tonami}の人が書き残した記録@<bib>{kaitaku-nominki}によれば、相当「いちがい者」@<endnote>{ichigai}だったようです。
 
 //endnote[kurisawacho-hokuto][現、北海道岩見沢市栗沢町北斗。]
