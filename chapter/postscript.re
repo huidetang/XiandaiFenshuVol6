@@ -59,3 +59,7 @@
 //flushright{
 恢徳堂　主筆　ヨーシャ　<iosha@huideyeren.info>
 //}
+
+//embed[latex]{
+\newpage
+//}
