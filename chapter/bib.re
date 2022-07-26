@@ -73,6 +73,11 @@
   https://web.archive.org/web/20170709051523/http://gendai.ismedia.jp:80/articles/-/39034
 //}
 
+//bibpaper[bokuto-koan][墨東公安委員会氏による旧統一教会のデモ活動目撃記事]{
+  墨東公安委員会氏のブログ「筆不精者の雑彙」より、「統一協会が秋葉原でデモ行進　「児童ポルノ規制強化」を訴える」
+  https://bokukoui.exblog.jp/13156895/
+//}
+
 //bibpaper[devsumi2022][デブサミ２０２２の講演]{
   Developers Summit 2022 における高倉佑輔（筆者）の講演
   「@<tcy>{10}年先を見据えた発達障がいエンジニアの生存戦略」
