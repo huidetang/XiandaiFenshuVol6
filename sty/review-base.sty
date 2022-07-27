@@ -395,6 +395,7 @@
 \ifdefined\review@makeindex
   \RequirePackage{makeidx}
   \makeindex
+  \clearpage
 \fi
 
 \ifdefined\review@makeindex
@@ -402,9 +403,6 @@
 \printindex
 }
 \fi
-
-% どうしても奇数ページになってしまうので突っ込む
-\newpage
 
 % colophon
 \ifdefined\review@colophon
