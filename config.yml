@@ -362,7 +362,8 @@ texstyle: ["reviewmacro"]
 # オプションについてはsty/README.mdを参照
 # デフォルトは印刷用。電子配布版を作るには media=ebook とする
 # texdocumentclass: ["review-jsbook", "paper=b5,serial_pagination=true,cameraready=ebook,cover=false,hiddenfolio=shippo,fontsize=10pt,line_length=40zw,number_of_lines=34,baselineskip=25.5H"]
-texdocumentclass: ["review-jlreq", "media=print,paper=b5,fontsize=10pt,serial_pagination=true,hiddenfolio=shippo,startpage=3,tate,twoside,onecolumn"]
+# texdocumentclass: ["review-jlreq", "media=print,paper=b5,fontsize=10pt,serial_pagination=true,hiddenfolio=shippo,startpage=3,tate,twoside,onecolumn"]
+texdocumentclass: ["review-jlreq", "media=ebook,paper=b5,fontsize=10pt,serial_pagination=false,startpage=3,tate,twoside,onecolumn"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
@@ -390,8 +391,6 @@ pdfmaker:
   # 仕上がりサイズ+塗り足し3mmありのPDFまたはIllustratorファイル（PDF互換オプション付き）を推奨。
   # 拡縮はされず「そのまま」貼り付けられる
   coverimage: cover.pdf
-  #
-  # TeXコンパイル前に実行するプログラム。変換後のTeXソースを調整したいときに使用する。
   # 渡される引数1=作業用展開ディレクトリ、引数2=呼び出しを実行したディレクトリ
   # hook_beforetexcompile: null
   #
