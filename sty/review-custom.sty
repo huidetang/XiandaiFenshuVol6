@@ -6,10 +6,27 @@
 
 % 後注の出力場所に関する設定
 % Re:VIEW 5.3が来たら取り除く
-\jlreqsetup{endnote_position={_chapter}}
+% \jlreqsetup{endnote_position={_chapter}}
 
 % 数字を使う箇条書きのみ数字と本文の間を1文字開ける
 \jlreqsetup{itemization_labelsep={enumerate=1zw}}
+
+% 表紙を全面に
+\newcommand*\includecover[2][]{%
+ \clearpage
+ \thispagestyle{empty}%
+\vbox to \textheight{%
+  \vskip-\dimexpr\headheight + 1in\relax%
+  \vbox to \paperheight{\vss%
+    \hbox to \textwidth{%
+      \hskip-\dimexpr\oddsidemargin + 1in\relax%
+      \hbox to \paperwidth{\hss
+        \includegraphics[#1]{#2}%
+        \hss}%
+    \hss}%
+  \vss}%
+\vss}%
+}
 
 % ここの意味は要調査
 \renewcommand{\reviewbibref}[2]{\cite{#2}}
